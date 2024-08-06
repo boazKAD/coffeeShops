@@ -1,0 +1,3 @@
+.custom-datepicker .ant-picker-input > input {
+  color: rgb(184, 12, 12) !important;/* Change this to your desired color */
+}

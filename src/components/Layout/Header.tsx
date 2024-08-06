@@ -5,15 +5,15 @@ import avatar from "../../assets/Avatar.png";
 import { IoIosNotificationsOutline } from "react-icons/io";
 const Header = () => {
   return (
-    <div className="w-full flex h-20 flex-row ">
-      <div className="w-[75%] h-20 flex justify-center items-center border-b border-r">
-        <div className=" relative">
+    <div className="flex h-32 flex-row ">
+      <div className="w-[75%] flex justify-center items-center border-b border-r">
+        <div className=" relative ">
           <input
             type="text"
-            className="h-[52px] block w-[726px] p-2 pl-10 bg-[#f8f8f8] rounded-md"
+            className="h-[72px] text-[22px] block w-[756px] p-2 pl-14 focus:outline-none border bg-[#f8f8f8] rounded-2xl"
             placeholder="Search..."
           />
-          <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-red-500" />
+          <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 w-9 h-11 mr-2" />
           <button className=" flex flex-row gap-1 items-center justify-center absolute right-3 top-1/2 transform -translate-y-1/2 bg-[#C67C4E] text-white px-4 py-2 rounded-md">
             <img src={filter} alt="filter" className="h-3 w-4 text-white" />
             <h1 className="text-lg">Filter</h1>
